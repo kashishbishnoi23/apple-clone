@@ -6,8 +6,6 @@ import {useGSAP} from '@gsap/react';
 
 //  npm i gsap @gsap/react
 
-
-
 const Hero = () => {
   const [videoSource, setvideoSource] = useState(window.innerWidth > 768 ? heroVideo : smallHeroVideo);
 //  if its mobile layout , show the smallherovideo , else show the heroVideo
